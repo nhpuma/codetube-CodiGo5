@@ -1,0 +1,13 @@
+
+.nombre-pagina{
+    margin-left: .5em;
+    display: inline-block;
+}
+
+.encabezado{
+    
+    display: block;
+}
+.logo-codigo{
+    float: inline-end;
+}
