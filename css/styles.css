@@ -1,4 +1,7 @@
-
+main{
+    
+    
+}
 .nombre-pagina{
     margin-left: .5em;
     display: inline-block;
@@ -10,4 +13,35 @@
 }
 .logo-codigo{
     float: inline-end;
+}
+.footer{
+    border-top: 2px solid black;
+    /*background-color: gray;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 2em;
+}
+.footer ul li{
+    float: left;
+}
+
+.footer li a {
+    display: block;
+    /* padding: 11px 16px; */
+    padding-left: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.footer li a:hover {
+    color: blue;
+}
+
+.mapa{
+    
 }
