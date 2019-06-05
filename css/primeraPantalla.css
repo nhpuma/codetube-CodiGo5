@@ -1,19 +1,47 @@
+*{
+  color: white;
+  font-weight: bold;
+  
+}
+header{
+  margin-bottom: 10%;
+  margin-top: 5%; 
+  background-color: #A9E8DB; 
+}
+
+body {
+ -webkit-font-smoothing: antialiased; 
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom: 10%;
+ margin-top: 5%;  
+ background-color: #A9E8DB;
+}
+
+#tabla1,#tabla2{
+  padding-bottom: 5%;
+  padding-top: 5%;  
+}
+#tabla1 td{
+  padding: 1%;
+  margin: 3%;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #F98084;
+  border-radius: 10px;
 }
 
 li {
   float: left;
-  border-right:1px solid #bbb;
+  border-right:1px solid white;
+  border-radius: 1px;
 }
 
-li:last-child {
-  border-right: none;
-}
+
 
 li a {
   display: block;
@@ -28,36 +56,37 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: white;
 }
   
   .active {
     background-color: white;
   }
   .celdaImagen{
-     width:1%;
+    width:1%;
     white-space:nowrap;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    height: 56px;
+    width: 56px;
   }
+
   #cabeceraPrimeraTabla{
-      background-color: rgb(222, 235, 148);
+       background-color: #A9E8DB;
+      border-radius: 10px;
+      
+    
   }
   .checked {
     color: orange;
   }
-.Tabla{
-    margin: 10%;
-}
-#barraDeNavegacion{
-    margin-left: 10%;
-}
+
+
 .videoHoy{
   color: rgb(249, 128, 132)
 }
-body {
-  /*background: rgb(231, 236, 237);*/
-  
-  -webkit-font-smoothing: antialiased;
-}
+
 
 /* - - - - - RATINGS */
 .rating {
@@ -142,6 +171,3 @@ body {
   color: rgb(233, 54, 40);
 }
 
-nav{
-  background-color: #A9E8DB;
-}
