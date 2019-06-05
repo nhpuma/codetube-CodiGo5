@@ -67,9 +67,9 @@ display: inline-block;
     margin-bottom: 10px;
 }
 .cat{
-    width: 100%;
+    text-align: left;
     margin-bottom: 10px;
-    float: left;
+    margin-left: 35px; 
 }
 #sp{
     margin-left: 70px;
