@@ -1,45 +1,76 @@
-.cajas{
-    
-       display: flex;
-       justify-content: center;
-       
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#archivo{
-    
-    /* justify-content: center; */
+html,body{
+    height: 100%;
+    width: 100%;
 }
-#caja1{
+main
+{
+    margin-left: 24%;
     
+}
+#imagen{
+    width: 200px;
+    float: left;
+}
+#subir{
+    margin-top: 65px;
+    font-size: 60px;
+    float: left;
+}
+#arch{
+    width: 100%;
+display: inline-block;
+}
+#categoria{
     background-color: rgb(114, 255, 126);
     border: 2px black solid;
     width: 180px;
     height: 240px;
     text-align: center;
-    display: inline-block;
+    float: left;
 }
-#caja2{
-    
+#etiquetas{
     background-color: rgb(162, 127, 241);
     border: 2px black solid;
     width: 180px;
     height: 240px;
     text-align: center;
-    display: inline-block;
+    float: left;
 }
-#caja3{
-   
+#descripcion{
     background-color: rgb(255, 101, 126);
     border: 2px black solid;
     width: 180px;
     height: 240px;
     text-align: center;
-    display: inline-block;
+    float: left;
 }
-#catego {
-    display: list-item;
+#fecha{
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
 }
 #btnsubir{
-    background: green;
-    color: whitesmoke;
-    
+    color: white;
+    background-color: green;
+    font-size: 30px;
+    width: 250px;
+    border-radius: 5px;
+    margin-left: 150px;
+
+}
+.et{
+    margin-bottom: 10px;
+}
+.cat{
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+}
+#sp{
+    margin-left: 70px;
 }

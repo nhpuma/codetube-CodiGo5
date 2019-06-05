@@ -18,75 +18,90 @@
         <img class="logo-codigo" src="./img/codigo-logo.png" alt="CodiGo" height="100px">
     </header>
     <main>
-        <!-- Para el contenido Principal -->
-        <div id="archivo" align="center">
-            <label>ARCHIVO </label>
-            <input type="text" disabled>
-            <input type="hidden" name="MAX_FILE_SIZE" value="2500000000" />
-            <input name="uploadedfile" type="file" />
+        <div>
+            <div>
+                <img src="img/up.png" id="imagen">
+            </div>
+            <div id="subir">
+                SUBIR VIDEO
+            </div>
+        </div>
+        <div id="arch">
+            <div>
+                <label>ARCHIVO </label>
+                <input type="text" disabled>
+                <input type="hidden" name="MAX_FILE_SIZE" value="2500000000" />
+                <input name="uploadedfile" type="file" />
+                <br />
+                <span id="sp" style="color: red">"El archivo a subir tiene que tener máximo 250 mb"</span>
+            </div>
             <br />
-            <span style="color: red">"El archivo a subir tiene que tener máximo 250 mb"</span>
+            <div>
+                <input type="checkbox" id="terminos">
+                <label for="terminos">Acepto Terminos y condiciones.</label>
+            </div>
+            <br>
         </div>
-        <br />
-        <div align="center">
-            <input type="checkbox" id="terminos">
-            <label for="terminos">Acepto Terminos y condiciones.</label>
-        </div>
-        <br />
-        <div class="cajas" align="center">
-            <div id="caja1">
-                <h2>Categoria</h2>
-                <div id="catego">
-                    <p>
-                        <input type="checkbox" id="musica">
-                        <label for="musica">Musica</label>
+
+        <div>
+                <div id="categoria">
+                    <h2>Categoria</h2>
+                    <br>
+                    <div id="catego">
+                        <p class="cat">
+                            <input type="checkbox">
+                            <label for="musica">Musica</label>
+                        </p>
+                        <p class="cat">
+                            <input type="checkbox">
+                            <label for="arte">Arte</label>
+                        </p>
+                        <p class="cat">
+                            <input type="checkbox">
+                            <label for="humor">Humor</label>
+                        </p>
+                        <p class="cat">
+                            <input type="checkbox">
+                            <label for="historias">Historias</label>
+                        </p>
+                        <p class="cat">
+                            <input type="checkbox">
+                            <label for="otro">Otros...</label>
+                        </p>
+                    </div>
+                </div>
+                <div id="etiquetas">
+                    <h2>#Etiquetas</h2>
+                    <br>
+                    <p class="et">
+                        <input type="text" placeholder="#hastag1">
                     </p>
-                    <p>
-                        <input type="checkbox" id="arte">
-                        <label for="arte">Arte</label>
+                    <p class="et">
+                        <input type="text" placeholder="#hastag2">
                     </p>
-                    <p>
-                        <input type="checkbox" id="humor">
-                        <label for="humor">Humor</label>
+                    <p class="et">
+                        <input type="text" placeholder="#hastag3">
                     </p>
-                    <p>
-                        <input type="checkbox" id="historias">
-                        <label for="historias">Historias</label>
-                    </p>
-                    <p>
-                        <input type="checkbox" id="otro">
-                        <label for="otro">Otros...</label>
+                    <p class="et">
+                        <input type="text" placeholder="#hastag4">
                     </p>
                 </div>
-            </div>
-            <div id="caja2">
-                <h2>#Etiquetas</h2>
-                <p>
-                    <input type="text" placeholder="#hastag1">
-                </p>
-                <p>
-                    <input type="text" placeholder="#hastag2">
-                </p>
-                <p>
-                    <input type="text" placeholder="#hastag3">
-                </p>
-                <p>
-                    <input type="text" placeholder="#hastag4">
-                </p>
-            </div>
-            <div id="caja3">
-                <h2>Descripción</h2>
-                <textarea name="" id="" cols="20" rows="7"></textarea>
-            </div>
-        </div>
-        <br />
-        <div align="center">
-            <input type="checkbox" id="subir">
-            <label for="subir">Deseo subirlo en dia</label>
+                <div id="descripcion">
+                    <h2>Descripción</h2>
+                    <br>
+                    <textarea cols="20" rows="7"></textarea>
+                </div>
+            
+        <div id="fecha">
+            <input type="checkbox" id="check">
+            <label for="check">Deseo subirlo en dia</label>
             <input type="date">
             <br />
-            <center> <input type="submit" value="SUBIR VIDEO" id="btnsubir"></center>
+            <input type="submit" value="SUBIR VIDEO" id="btnsubir">
         </div>
+            </div>
+        
+
     </main>
     
     <footer class="footer">
