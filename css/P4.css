@@ -1,0 +1,45 @@
+.cajas{
+    
+       display: flex;
+       justify-content: center;
+       
+}
+#archivo{
+    
+    /* justify-content: center; */
+}
+#caja1{
+    
+    background-color: rgb(114, 255, 126);
+    border: 2px black solid;
+    width: 180px;
+    height: 240px;
+    text-align: center;
+    display: inline-block;
+}
+#caja2{
+    
+    background-color: rgb(162, 127, 241);
+    border: 2px black solid;
+    width: 180px;
+    height: 240px;
+    text-align: center;
+    display: inline-block;
+}
+#caja3{
+   
+    background-color: rgb(255, 101, 126);
+    border: 2px black solid;
+    width: 180px;
+    height: 240px;
+    text-align: center;
+    display: inline-block;
+}
+#catego {
+    display: list-item;
+}
+#btnsubir{
+    background: green;
+    color: whitesmoke;
+    
+}

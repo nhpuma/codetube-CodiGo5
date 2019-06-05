@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Plantilla</title>
+
+    <link rel="stylesheet" href="./css/P4.css">
+
+</head>
+<body>
+
+    <header class="encabezado">
+        
+        <img src="./img/logo.png" alt="CodeTube" height="50px">
+        <h1 class="nombre-pagina">CodeTube</h1>
+        <img class="logo-codigo" src="./img/codigo-logo.png" alt="CodiGo" height="100px">
+    </header>
+    <main>
+        <!-- Para el contenido Principal -->
+        <div id="archivo" align="center">
+            <label>ARCHIVO </label>
+            <input type="text" disabled>
+            <input type="hidden" name="MAX_FILE_SIZE" value="2500000000" />
+            <input name="uploadedfile" type="file" />
+            <br />
+            <span style="color: red">"El archivo a subir tiene que tener máximo 250 mb"</span>
+        </div>
+        <br />
+        <div align="center">
+            <input type="checkbox" id="terminos">
+            <label for="terminos">Acepto Terminos y condiciones.</label>
+        </div>
+        <br />
+        <div class="cajas" align="center">
+            <div id="caja1">
+                <h2>Categoria</h2>
+                <div id="catego">
+                    <p>
+                        <input type="checkbox" id="musica">
+                        <label for="musica">Musica</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="arte">
+                        <label for="arte">Arte</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="humor">
+                        <label for="humor">Humor</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="historias">
+                        <label for="historias">Historias</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="otro">
+                        <label for="otro">Otros...</label>
+                    </p>
+                </div>
+            </div>
+            <div id="caja2">
+                <h2>#Etiquetas</h2>
+                <p>
+                    <input type="text" placeholder="#hastag1">
+                </p>
+                <p>
+                    <input type="text" placeholder="#hastag2">
+                </p>
+                <p>
+                    <input type="text" placeholder="#hastag3">
+                </p>
+                <p>
+                    <input type="text" placeholder="#hastag4">
+                </p>
+            </div>
+            <div id="caja3">
+                <h2>Descripción</h2>
+                <textarea name="" id="" cols="20" rows="7"></textarea>
+            </div>
+        </div>
+        <br />
+        <div align="center">
+            <input type="checkbox" id="subir">
+            <label for="subir">Deseo subirlo en dia</label>
+            <input type="date">
+            <br />
+            <center> <input type="submit" value="SUBIR VIDEO" id="btnsubir"></center>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="links">
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Correo Electrónico</a></li>
+                <li><a href="#">Ubicación</a></li>
+            </ul>
+        </div>
+        <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.91415572077!2d-71.52190838533184!3d-16.429185643263892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b23fcffffff%3A0xf3a2f908ae973204!2sTecsup!5e0!3m2!1ses-419!2spe!4v1559687309264!5m2!1ses-419!2spe" width="150" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </footer>
+    
+</body>
+</html>
