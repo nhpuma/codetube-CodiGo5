@@ -67,6 +67,12 @@ main * :not(br) {
     font-size: 30px;
 }
 
+#terminos{
+    margin: 0px 0px 0px 10px;
+    transform: scale(1.3);
+    -moz-transform: scale(1.3);
+}
+
 #age{
     width: 200px;
 }
