@@ -2,6 +2,13 @@
   color: white;
   font-weight: bold;
   
+  font-family: "nuevaFuente";
+  
+}
+@font-face{
+  font-family: 'nuevaFuente';
+  src:url('./../fonts/Ralliankara.otf');
+  font-size: 15px;
 }
 header{
   margin-bottom: 10%;
