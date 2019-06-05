@@ -13,7 +13,8 @@
 header{
   margin-bottom: 10%;
   margin-top: 5%; 
-  background-color: #A9E8DB; 
+  background: rgb(169,232,219);
+  background: radial-gradient(circle, rgba(169,232,219,1) 54%, rgba(29,215,249,1) 96%, rgba(0,212,255,0.9906337535014006) 100%, rgba(0,212,255,0.9906337535014006) 104%);  
 }
 
 body {
@@ -22,7 +23,8 @@ body {
  margin-right: 10%;
  margin-bottom: 10%;
  margin-top: 5%;  
- background-color: #A9E8DB;
+ background: rgb(169,232,219);
+ background: radial-gradient(circle, rgba(169,232,219,1) 54%, rgba(29,215,249,1) 96%, rgba(0,212,255,0.9906337535014006) 100%, rgba(0,212,255,0.9906337535014006) 104%);
 }
 
 #tabla1,#tabla2{
@@ -80,7 +82,7 @@ li a:hover:not(.active) {
   }
 
   #cabeceraPrimeraTabla{
-       background-color: #A9E8DB;
+      background: transparent;
       border-radius: 10px;
       
     
