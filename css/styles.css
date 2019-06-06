@@ -1,47 +1,112 @@
-main{
-    
-    
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
-.nombre-pagina{
-    margin-left: .5em;
-    display: inline-block;
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    
 }
 
 .encabezado{
+    border-bottom: 2px solid black;
+    height: 100px;
     
-    display: block;
 }
-.logo-codigo{
-    float: inline-end;
+main{
+    height: 60%;
+    margin: 0 5%;
+    
 }
-.footer{
-    border-top: 2px solid black;
-    /*background-color: gray;*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main>h1{
+    text-align: center;
 }
-.footer ul{
-    list-style: none;
-    margin: 0;
-    padding: 2em;
+.h-left{
+    float: left;
+    width: 70%;
+    
 }
-.footer ul li{
+.h-right{
+    float: right;
+    width: 30%;
+    
+    
+    text-align: right;
+    padding-right: 10px;
+}
+.logo-img{
     float: left;
 }
-
-.footer li a {
-    display: block;
-    /* padding: 11px 16px; */
-    padding-left: 1em;
-    text-decoration: none;
-    color: black;
+.titulos-web{
+    display: flex;
+    flex-direction: column;
 }
-
-.footer li a:hover {
-    color: blue;
-}
-
-.mapa{
+.nombre-pagina{
     
+    margin: 1% 2%;
+}
+.subtitulo{
+    
+    margin: .5% 2%;
+}
+
+.canal-1{
+    margin-top: 2%;
+}
+.title-canal{
+    text-align: center;
+    border: 3px solid red;
+    background-color: rgba(230, 81, 94,.5);
+    background-image: url("/img/portada-css.jpg")
+}
+
+.contenido-canal{
+    background-color: rgb(207, 182, 70);
+    display: flex;
+    align-items: center;
+}
+.pie-canal{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.pie-canal p{
+    padding: 0 1%;
+}
+.descrip-canal{
+    width: 30%;
+}
+.videos{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.video{
+    width: 100%;
+}
+
+footer{
+    margin-top: 8px;
+    height: 100px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid black;
+}
+.footer-links{
+    display: flex;
+}
+.footer-links p{
+    margin-left: 50px;
+}
+.footer-map{
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
 }
