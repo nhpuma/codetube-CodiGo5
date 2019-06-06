@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: red solid 1px; */
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    border: 1px solid red;
+}
+
+header{
+    width: 100%;
+    height: 15%;
+}
+
+footer{
+    width: 100%;
+    height: 20%;
+}
+
+main{
+    width: 100%;
+    height: 65%;
+    
+}
+
+#seccion1{
+    width: 90%;
+    height: 60%;
+    display: inline-block;
+    margin:0px 20%;
+    /* justify-content: center; */
+    
+}
+
+#seccion2{
+    width: 100%;
+    height: 5%;
+    display: inline-block;
+    text-align: center;
+    justify-items: center;
+}
+
+#seccion3{
+    width: 100%;
+    height: 35%;
+    display: inline-block;
+}
+
+#div1{
+    float: left;
+    width: 30%;
+    position: static;
+}
+
+#div2{
+    float: left;
+    /* width: 30%; */
+}
+
+.parrafov{
+    width: 100%;
+    height: 100%;
+}
+
+#video1{
+    float: left;
+    /* display: inline-block; */
+    width: 30%
+}
+
+#video2{
+    float: left;
+    /* display: inline-block; */
+    width: 30%;
+}
+
+#video3{
+    float: left;
+    /* display: inline-block; */
+    width: 30%;
+}
+
+#vid{
+    width: 100%;
+}
+
+/* #contenedor1{
+    height: 100%;
+    width: 100%;
+    margin:auto;
+} */
+
+#nombreprincipal{
+    width:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    font-size: 50px;
+}
+
+#parprin{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(128, 128, 128, 0.76);
+    font-size: 30px;
+    width:100%;
+}
+
+.link{
+    /* border: 1px; */
+    /* border-color: black 1px; */
+    background-color: orangered;
+    /* display: inline-block; */
+    /* width: 100%;
+    height: 20%; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    float: left;
+    padding: 5px 25px;
+    border-color: black;
+    margin: auto;
+
+}
+
+.titulov{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 20px;
+    padding-top: 3% ;
+}
+.parrafov{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#t1, #t3{
+    padding-bottom: 3%;
+}
+
+.boton{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    border: 1px solid royalblue;
+}
+
+#menu{
+    /* background-color: red; */
+    margin-left: auto;
+  margin-right: auto;
+  padding: 0px 25%;
+}
